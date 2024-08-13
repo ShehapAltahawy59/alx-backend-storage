@@ -1,5 +1,2 @@
 // insert
-DATABASE_NAME=$1
-use DATABASE_NAME
-db.createCollection("school")
 db.school.insertOne({"name":"Holberton school"})
